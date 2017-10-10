@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<style>
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: dodgerblue;
+}
+
+li {
+    float: left;
+	    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+p.blogp {
+background-color:dodgerblue;
+  padding: 0;
+  margin: 0;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset = "utf-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<br>
+<img style = "width: 150px; height: auto"src="https://c1.staticflickr.com/4/3184/4563990624_eda708f4f3.jpg" >
+<br>
+
+<!-- BEGIN MENU -->
+
+<ul class = "navbar">
+<li><a href="#"> {MENU_1}</a></li>
+<li style = "float: right"><a href="#">{MENU_2}</a></li>
+<li style = "float: right"><a href="#">{MENU_3}</a></li>
+</ul>
+<br>
+
+<!-- END MENU -->
+
+<!-- BEGIN MICROPOSTS -->
+
+<p class ="blogp">{USER} updated: {UPDATED}
+<p style ="max-width:50%" class ="blogp">{USER} created: {CREATED} </p>
+<p style = "text-align:center"> {UPDATE}</p>
+<br>
+
+<!-- END MENU -->
+
+</body>
+<footer><p>&copy; 2017 Desenvolvimento de Aplicações para a Web<span style = "float: right; margin-right: 2%"> Designed by: José Teixeira</span></p></footer>
+</html>
